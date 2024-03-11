@@ -9,16 +9,16 @@ project_name = "mlproject"
 
 list_of_files = [
     "data/.gitkeep",
-    f"src{project_name}/__init__.py",
-    f"src{project_name}/components/__init__.py",
-    f"src{project_name}/components/data_ingestion.py",
-    f"src{project_name}/components/data_transformation.py",
-    f"src{project_name}/components/model_trainer.py",
-    f"src{project_name}/exception/__init__.py",
-    f"src{project_name}/logger/__init__.py",
-    f"src{project_name}/pipeline/__init__.py",
-    f"src{project_name}/pipeline/predict_pipeline.py",
-    f"src{project_name}/pipeline/train_pipeline.py",
+    f"src/{project_name}/__init__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/components/data_ingestion.py",
+    f"src/{project_name}/components/data_transformation.py",
+    f"src/{project_name}/components/model_trainer.py",
+    f"src/{project_name}/exception/__init__.py",
+    f"src/{project_name}/logger/__init__.py",
+    f"src/{project_name}/pipeline/__init__.py",
+    f"src/{project_name}/pipeline/predict_pipeline.py",
+    f"src/{project_name}/pipeline/train_pipeline.py",
     
     "requirements.txt",
     "setup.py"
